@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { BiDollar } from "react-icons/bi";
 import { FaRegClock, FaTruck, FaShieldAlt, FaArrowRight, FaPlay, FaPause } from "react-icons/fa";
-import { FiArrowRight } from "react-icons/fi";
+import { FiArrowRight, FiPhone } from "react-icons/fi";
 import 'animate.css';
 
 const features = [
@@ -70,7 +70,7 @@ export default function DeliveryService() {
                     <div className="grid md:grid-cols-2 gap-8 mb-16">
                         <div>
                             <h2 className="text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold leading-tight">
-                                Since during our launch, to deliver high value package.
+                                Since During our Launch, To Deliver High Value Package.
                             </h2>
                         </div>
                         <div className="space-y-4  ">
@@ -101,12 +101,17 @@ export default function DeliveryService() {
 
                     {/* Contact Section */}
                     <div className="grid md:grid-cols-2 gap-10 items-center">
-                        <div>
+                        <div className="text-center md:text-left">
                             <p className="mb-4 max-w-md">
                                 If you have any delivery queries, don't hesitate to contact our team, or you can also phone call us
                                 anytime.
                             </p>
-                            <p className="text-blue-400 mb-6 text-lg">(800) 0117 1022377</p>
+                            <p className="mb-6">
+                                <a href="tel:+8801171022377" className="text-blue-700 text-lg hover:underline focus:underline outline-none inline-flex items-center gap-2">
+                                    <FiPhone className="w-5 h-5" />
+                                    +8801171022377
+                                </a>
+                            </p>
                             <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md flex justify-center items-center group hover:text-blue-600 hover:bg-opacity-10 transition-colors duration-300 w-full sm:w-auto">
                                 <span className="text-base ">Get A Quote</span>
                                 <FiArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />

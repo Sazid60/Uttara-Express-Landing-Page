@@ -5,7 +5,7 @@ import {
     FaTimes,
 } from "react-icons/fa"
 import { useState } from "react"
-import TopNav from "./TopNav"
+
 
 const navLinks = [
     { label: "Home", href: "#", active: true },

@@ -33,8 +33,8 @@ export default function CourierDetails() {
                         Dependable Courier & Delivery Service!
                     </p>
                     <h2 className="text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold leading-tight mb-6">
-                        Simple processing to deliver<br />
-                        courier & parcel service
+                        Simple Processing To Deliver<br />
+                        Courier & Parcel Service
                     </h2>
                     <p className="mb-4 text-base text-wrap">
                         The process of courier delivery depends on the company, contract,
