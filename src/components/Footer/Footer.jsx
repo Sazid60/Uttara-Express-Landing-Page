@@ -19,7 +19,7 @@ const Footer = () => {
 
                 {/* Company */}
                 <div>
-                    <h2 className="text-lg font-semibold mb-4 text-[#2f80ed]">Company</h2>
+                    <h2 className="text-base md:text-lg font-semibold mb-4 text-blue-700 uppercase">Company</h2>
                     <ul className="space-y-2 text-sm">
                         <li><a href="#" className="hover:underline">About Us</a></li>
                         <li><a href="#" className="hover:underline">Meet Our Team</a></li>
@@ -31,7 +31,7 @@ const Footer = () => {
 
                 {/* Services */}
                 <div>
-                    <h2 className="text-lg font-semibold mb-4 text-[#2f80ed]">Services</h2>
+                    <h2 className="text-base md:text-lg font-semibold mb-4 text-blue-700 uppercase">Services</h2>
                     <ul className="space-y-2 text-sm">
                         <li><a href="#" className="hover:underline">Standard Courier</a></li>
                         <li><a href="#" className="hover:underline">Express Courier</a></li>
@@ -43,7 +43,7 @@ const Footer = () => {
 
                 {/* Courier Info */}
                 <div>
-                    <h2 className="text-lg font-semibold mb-4 text-[#2f80ed]">Courier Info</h2>
+                    <h2 className="text-base md:text-lg font-semibold mb-4 text-blue-700 uppercase">Courier Info</h2>
                     <ul className="space-y-2 text-sm">
                         <li><a href="#" className="hover:underline">Track Your Package</a></li>
                         <li><a href="#" className="hover:underline">Shipping Calculator</a></li>
