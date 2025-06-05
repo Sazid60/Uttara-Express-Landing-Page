@@ -19,7 +19,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFFCF5]/40 backdrop-blur-2xl shadow-md rounded-b-xl max-w-7xl mx-auto">
+            <nav className="fixed top-0 left-0 right-0 z-50 bg-white md:bg-[#FFFCF5]/40 md:backdrop-blur-2xl shadow-xl rounded-b-xl max-w-7xl mx-auto">
                 {/* <TopNav /> */}
                 <div className=" px-4 lg:px-6">
                     <div className="flex items-center justify-between h-20 w-full">
@@ -35,7 +35,7 @@ export default function Navbar() {
                                 <a
                                     key={link.label}
                                     href={link.href}
-                                    className={`text-base md:text-lg font-medium transition-colors uppercase ${link.active ? "text-blue-700" : "text-gray-800 hover:text-blue-700"}`}
+                                    className={`text-base font-medium transition-colors uppercase ${link.active ? "text-blue-700" : "text-gray-800 hover:text-blue-700"}`}
                                 >
                                     {link.label}
                                 </a>
@@ -43,7 +43,7 @@ export default function Navbar() {
                         </div>
                         {/* Far Right: Merchant Login/Signup Button */}
                         <div className="hidden lg:flex items-center min-w-[220px] justify-end ml-6">
-                            <button className="bg-blue-700 hover:bg-blue-600 text-white text-base md:text-lg px-6 py-2 rounded focus:outline-none uppercase transition-all">
+                            <button className="bg-blue-700 hover:bg-blue-600 text-white text-base  px-6 py-2 rounded focus:outline-none uppercase transition-all">
                                 Merchant Login / Signup
                             </button>
                         </div>

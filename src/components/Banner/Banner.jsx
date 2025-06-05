@@ -24,12 +24,12 @@ const Banner = () => {
 
                         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                             <button className="bg-blue-700 text-white px-8 py-4 rounded-md flex items-center justify-center group hover:bg-blue-600 transition-colors duration-300 w-full sm:w-auto">
-                                <span className="text-base md:text-lg">Explore The Services</span>
+                                <span className="text-base ">Explore The Services</span>
                                 <FiArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
                             </button>
 
                             <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md flex justify-center items-center group hover:text-blue-600 hover:bg-opacity-10 transition-colors duration-300 w-full sm:w-auto">
-                                <span className="text-base md:text-lg">Contact Us</span>
+                                <span className="text-base ">Contact Us</span>
                                 <FiArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
                             </button>
                         </div>
