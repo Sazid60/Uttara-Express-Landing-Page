@@ -1,11 +1,12 @@
 import React from 'react';
-import Banner from '../components/Banner/Banner';
+import CourierDetails from '../components/Courier-Details-Banner/CourierDetails';
+
 
 const Home = () => {
     return (
-        <div >
-            home
-        </div>
+        < >
+            <CourierDetails />
+        </>
     );
 };
 

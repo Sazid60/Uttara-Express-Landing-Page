@@ -43,7 +43,7 @@ export default function Navbar() {
                         </div>
                         {/* Far Right: Merchant Login/Signup Button */}
                         <div className="hidden lg:flex items-center min-w-[220px] justify-end ml-6">
-                            <button className="bg-[#4A90E2] hover:bg-blue-700 text-white text-base md:text-lg px-6 py-2 rounded focus:outline-none uppercase transition-all">
+                            <button className="bg-blue-700 hover:bg-blue-600 text-white text-base md:text-lg px-6 py-2 rounded focus:outline-none uppercase transition-all">
                                 Merchant Login / Signup
                             </button>
                         </div>
@@ -66,13 +66,13 @@ export default function Navbar() {
                                 <a
                                     key={link.label}
                                     href={link.href}
-                                    className={`block font-medium ${link.active ? "text-blue-500" : "text-gray-800 hover:text-blue-500"}`}
+                                    className={`block font-medium ${link.active ? "text-blue-700" : "text-gray-800 hover:text-blue-500"}`}
                                 >
                                     {link.label}
                                 </a>
                             ))}
 
-                            <button className="bg-[#4A90E2] hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded focus:outline-none transition-all w-full uppercase">
+                            <button className="bg-blue-700 hover:bg-blue-600 text-white font-semibold px-6 py-2 rounded focus:outline-none transition-all w-full uppercase">
                                 Merchant Login / Signup
                             </button>
                         </div>
