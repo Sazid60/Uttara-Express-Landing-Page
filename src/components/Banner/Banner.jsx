@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiArrowRight } from 'react-icons/fi';
+import BannerMarquee from './BannerMarquee';
 
 const Banner = () => {
     return (
@@ -36,8 +37,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-
-
+            <BannerMarquee />
         </>
     );
 };

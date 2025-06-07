@@ -41,9 +41,9 @@ const Reviews = () => {
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-12">
                 {/* Experience Box */}
                 <div className="w-full lg:w-1/3 text-center lg:text-left">
-                    <h2 className="text-blue-700 font-bold uppercase text-5xl sm:text-6xl lg:text-7xl">
+                    <h2 className="text-blue-700 font-bold uppercase text-5xl sm:text-6xl lg:text-7xl italic">
                         {yearsOfExperience}
-                        <span className="text-black ml-2 text-xl sm:text-2xl lg:text-3xl font-bold">
+                        <span className="text-black ml-2 text-xl sm:text-2xl lg:text-3xl font-bold ">
                             + Years
                         </span>
                     </h2>
