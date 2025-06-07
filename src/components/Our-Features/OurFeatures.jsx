@@ -49,7 +49,7 @@ export default function DeliveryService() {
 
     return (
         <section
-            className="relative bg-[#0C2438] text-white py-20 px-9 mb-20 overflow-hidden"
+            className="relative bg-[#0C2438] text-white py-20 px-9  overflow-hidden"
             style={{
                 backgroundImage: "url('/assets/background.jpg')",
                 backgroundSize: "cover",
